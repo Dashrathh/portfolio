@@ -41,14 +41,18 @@ const Hero = () => {
               >
                 View My Work <FaArrowDown />
               </button>
-              <button className="flex items-center gap-2 border border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 font-medium py-3 px-6 rounded-lg transition-colors">
+              <a
+                href="/resume.pdf"
+                download="Dashrath_Prajapati_Resume.pdf"
+                className="flex items-center gap-2 border border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 font-medium py-3 px-6 rounded-lg transition-colors"
+              >
                 Download CV <FaFileDownload />
-              </button>
+              </a>
             </div>
 
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Dashrathh"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -56,7 +60,7 @@ const Hero = () => {
                 <FaGithub size={20} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/dasharath-h-prajapati-91a536285/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
@@ -64,7 +68,8 @@ const Hero = () => {
                 <FaLinkedin size={20} />
               </a>
               <a
-                href="mailto:johndoe@example.com"
+                href="mailto:dasharathh99@gmail.com
+"
                 className="p-3 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-blue-100 dark:hover:bg-blue-900/30 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
               >
                 <SiGmail size={20} />
@@ -77,7 +82,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 bg-blue-600 dark:bg-blue-400 rounded-full overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
                   <span className="text-4xl text-gray-500 dark:text-gray-400">
-                    Your Photo
+                    <img src="/public/avatar.jpg" alt="" />
                   </span>
                 </div>
               </div>

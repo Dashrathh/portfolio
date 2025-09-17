@@ -29,7 +29,7 @@ const Projects = () => {
       title: "jalaram estate agency A real estate property platform",
       description:
         "A real estate platform developed for a freelance client, showcasing residential and commercial properties with project listings, amenities, and location details.",
-      image: "public/jalaram.png",
+      image: "/jalaram.png",
       tags: [
         "React",
         "Node.js",
@@ -47,7 +47,7 @@ const Projects = () => {
       title: "Podcast blog platform",
       description:
         "A full-stack blogging platform merging podcasts with blogs, featuring real-time updates, dynamic comparisons, and secure backend APIs for scalability.",
-      image: "public/podcast.png",
+      image: "/podcast.png",
 
       tags: [
         "React",
@@ -67,7 +67,7 @@ const Projects = () => {
       title: "Universal truth Blog platform ",
       description:
         "An information-based platform showcasing comparisons between ancient and modern technologies, with 12+ blogs, secure authentication, and interactive features.",
-      image: "public/universal.png",
+      image: "/universal.png",
       tags: ["Ejs", "java script", "CSS", "node js", "express js", "mongodb"],
       category: "fullstack",
       github: "https://github.com/Dashrathh/Universal-truth",
@@ -89,7 +89,7 @@ const Projects = () => {
       title: "Hope Hub – Donation Platform",
       description:
         "A donation management platform built as a college project, enabling users to donate items, needy individuals to claim donations, and volunteers to contribute to social welfare.",
-      image: "public/HopeHub.png",
+      image: "/HopeHub.png",
       tags: [
         "React",
         "Node.js",
@@ -107,7 +107,7 @@ const Projects = () => {
       title: "TweakStudy Backend – College Paper Solutions",
       description:
         "A backend service for delivering college previous year paper solutions, supporting question-wise data storage and retrieval. Built with Node.js, SQL, and Sequelize ORM for efficient database management.",
-      image: "public/pragama.png",
+      image: "/pragama.png",
       tags: ["Node.js", "Express", "MySQL", "Sequelize"],
       category: "backend",
       github: "https://github.com/Dashrathh/tweakstudy-backend",
@@ -118,7 +118,7 @@ const Projects = () => {
       title: "AutoMail – Scheduled Email Sender",
       description:
         "A backend service that automates sending emails at scheduled times, built using Node.js for reliability and efficiency.",
-      image: "public/autoMail.png", // agar koi screenshot/logo hai toh use kar lena
+      image: "autoMail.png", // agar koi screenshot/logo hai toh use kar lena
       tags: ["Node.js", "Scheduling", "Email Service", "CRON", "Express"],
       category: "backend",
       github: "https://github.com/Dashrathh/AutoMail",

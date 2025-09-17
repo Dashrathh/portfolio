@@ -82,7 +82,7 @@ const Hero = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 bg-blue-600 dark:bg-blue-400 rounded-full overflow-hidden shadow-xl">
                 <div className="w-full h-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
                   <span className="text-4xl text-gray-500 dark:text-gray-400">
-                    <img src="/public/avatar.jpg" alt="" />
+                    <img src="/avatar.jpg" alt="" />
                   </span>
                 </div>
               </div>

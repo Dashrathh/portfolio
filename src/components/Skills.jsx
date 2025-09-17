@@ -17,22 +17,21 @@ import {
   SiPostgresql,
   SiExpress,
   SiDocker,
+  SiRedis,
 } from "react-icons/si";
 
 const Skills = () => {
   const skills = [
     { name: "React", icon: <FaReact /> },
-    { name: "Next.js", icon: <SiNextdotjs /> },
     { name: "JavaScript", icon: <FaJs /> },
     { name: "HTML5", icon: <FaHtml5 /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
     { name: "Node.js", icon: <FaNodeJs /> },
     { name: "Express", icon: <SiExpress /> },
-    { name: "Python", icon: <FaPython /> },
     { name: "MongoDB", icon: <SiMongodb /> },
-    { name: "PostgreSQL", icon: <SiPostgresql /> },
     { name: "SQL", icon: <FaDatabase /> },
+    { name: "Redis", icon: <SiRedis /> },
     { name: "Git", icon: <FaGitAlt /> },
     { name: "AWS", icon: <FaAws /> },
     { name: "Docker", icon: <SiDocker /> },
